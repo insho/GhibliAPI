@@ -32,17 +32,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="c0P-fW-obc" firstAttribute="top" relation="lessThanOrEqual" secondItem="AJM-F5-Crq" secondAttribute="bottom" constant="4" id="SLq-4f-ChZ"/>
+                            <constraint firstItem="c0P-fW-obc" firstAttribute="top" relation="greaterThanOrEqual" secondItem="AJM-F5-Crq" secondAttribute="bottom" constant="40" id="SLq-4f-ChZ"/>
                             <constraint firstItem="c0P-fW-obc" firstAttribute="centerY" secondItem="hRs-Qk-LyP" secondAttribute="centerY" id="bRz-4Y-7lr"/>
-                            <constraint firstItem="c0P-fW-obc" firstAttribute="leading" secondItem="hRs-Qk-LyP" secondAttribute="leadingMargin" constant="65" id="fzp-0Y-m0U"/>
                             <constraint firstItem="c0P-fW-obc" firstAttribute="centerX" secondItem="hRs-Qk-LyP" secondAttribute="centerX" id="mu3-Gl-Vk1"/>
-                            <constraint firstItem="rmz-4x-8oa" firstAttribute="top" relation="greaterThanOrEqual" secondItem="c0P-fW-obc" secondAttribute="bottom" constant="4" id="qgN-ru-VZU"/>
+                            <constraint firstItem="rmz-4x-8oa" firstAttribute="top" relation="greaterThanOrEqual" secondItem="c0P-fW-obc" secondAttribute="bottom" constant="40" id="qgN-ru-VZU"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="fzp-0Y-m0U"/>
-                            </mask>
-                        </variation>
                     </view>
                     <navigationItem key="navigationItem" id="7rU-wG-Ljm"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
