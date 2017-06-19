@@ -1,2 +1,2 @@
 # GhibliAPI
-Objective-C practice. Ghibli movie information from DB/API call.
+Displays information for Studio Ghibli films using a local sql database and the [Studio Ghibli API](https://ghibliapi.herokuapp.com/)
